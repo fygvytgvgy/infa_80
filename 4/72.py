@@ -1,0 +1,5 @@
+string = input("Enter a string: ")
+letters = sum(char.isalpha() for char in string)
+digits = sum(char.isdigit() for char in string)
+print("Letters:", letters)
+print("Digits:", digits)
